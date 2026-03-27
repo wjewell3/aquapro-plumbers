@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/LocalBusiness">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AquaPro Plumbers – Chattanooga, TN</title>
+  <meta name="description" content="Expert plumbing solutions in Chattanooga, TN. Fast, reliable, and affordable plumbing services. Contact AquaPro Plumbers today!">
+  <style>
+    body {margin:0;font-family:system-ui,sans-serif;color:#222;background:#f9fbfc;}
+    header {background:#2186b0;color:#fff;padding:2.5em 1em 2em 1em;text-align:center;}
+    header h1 {margin:0;font-size:2.4em;font-weight:700;}
+    header p {margin:1em 0 0;font-size:1.25em;}
+    .cta-btn {background:#f6b109;color:#174366;padding:0.85em 2.2em;border:none;font-size:1.11em;font-weight:600;border-radius:4px;margin-top:2em;cursor:pointer;transition:all .18s}
+    .cta-btn:hover {background:#ffd370;color:#000}
+    main {padding:2.2em 1em 1.8em 1em;max-width:625px;margin:0 auto;}
+    section {margin-bottom:2.3em;}
+    h2 {color:#2186b0;margin-bottom:.8em;font-size:1.24em;letter-spacing:0.02em;}
+    ul {padding-left:1.15em;line-height:1.8;}
+    .contact-form {
+      background:#eef6fa;
+      border-radius:6px;
+      padding:1.2em 1em 1.6em 1em;
+      max-width:400px;
+      margin:0 auto;
+      box-shadow:0 2px 14px 0 #e2e8f0;
+    }
+    .contact-form label {display:block;margin:.88em 0 0.2em 0;font-size:.99em;}
+    .contact-form input,.contact-form textarea {
+      width:100%;
+      padding:.6em;
+      border:1px solid #cee3ef;
+      border-radius:3px;
+      font-size:1em;
+      resize:vertical;
+      box-sizing:border-box;
+      margin-bottom:1em;
+      background:#fff;
+    }
+    .contact-form button {background:#2186b0;color:#fff;padding:0.7em 1.3em;border:none;border-radius:3px;font-size:1.05em;cursor:pointer;transition:background .16s;}
+    .contact-form button:hover {background:#174366;}
+    address {font-style:normal;line-height:1.7;color:#174366;}
+    .divider {border-top:2px solid #d7eaf7;margin:2.1em 0;}
+    footer {background:#174366;color:#fff;padding:1.3em 0;text-align:center;font-size:0.95em;margin-top:3em;}
+    @media (max-width:600px){
+      header,main,footer{padding-left:1em!important;padding-right:1em!important;}
+      main{padding-top:1.1em;}
+      .contact-form{padding:1em;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 itemprop="name">AquaPro Plumbers</h1>
+    <p>Expert Plumbing Services in Chattanooga, TN</p>
+    <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">Request Your Free Quote</button>
+  </header>
+  <main>
+    <section>
+      <h2>Our Plumbing Services</h2>
+      <ul itemprop="makesOffer">
+        <li>Pipe repair &amp; leak detection</li>
+        <li>Drain cleaning &amp; clog removal</li>
+        <li>Water heater service &amp; replacement</li>
+        <li>Emergency plumbing (24/7)</li>
+        <li>Fixture installation (faucets, toilets, more)</li>
+      </ul>
+    </section>
+    <div class="divider"></div>
+    <section id="contact">
+      <h2>Contact AquaPro Plumbers</h2>
+      <div class="contact-form">
+        <form method="POST" action="#" autocomplete="off" onsubmit="event.preventDefault();alert('Demo: Message sent!');">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone" placeholder="(xxx) xxx-xxxx">
+
+          <label for="message">How can we help?</label>
+          <textarea id="message" name="message" rows="4" placeholder="Describe your plumbing issue or request a quote" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <address itemprop="address" style="margin-top:1.2em;font-size:.98em;">
+        Serving Chattanooga, TN<br>
+        <!-- No official address found -->
+        <b>Email:</b> <a href="mailto:info@aquaproplumbers.com" style="color:#2186b0;">info@aquaproplumbers.com</a> (demo email)<br>
+        <b>Phone:</b> <span itemprop="telephone">Call for quote</span>
+      </address>
+    </section>
+  </main>
+  <footer>
+    &copy; AquaPro Plumbers 2024 &ndash; Chattanooga, TN<br>
+    <span style="font-size:.94em;opacity:.85;">Website demo. Not an official site.</span>
+  </footer>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "AquaPro Plumbers",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chattanooga",
+        "addressRegion": "TN"
+      },
+      "areaServed": "Chattanooga, TN",
+      "telephone": "",
+      "url": "https://wjewell3.github.io/aquapro-plumbers/",
+      "description": "AquaPro Plumbers: expert plumbing services in Chattanooga, TN - demo site."
+    }
+  </script>
+</body>
+</html>
